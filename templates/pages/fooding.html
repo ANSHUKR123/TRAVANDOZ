@@ -1,0 +1,182 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container"> 
+
+                <h1 class="logo">TRAVENDOZ</h1>
+                <ul class="nav-items">
+                <li class="nav-item"><a href="{% url 'home' %}">Home</a></li>
+                <li class="nav-item"><a href="about">About</a></li>
+                <li class="nav-item"><a href="contact">Login</a></li>
+            </ul>
+
+            </div>
+        </nav>
+
+        <div class="header-content">
+            <h1 class="site-info main-heading">Travel Next</h1>
+            <p class="site-desc">Don't just visit, experience and feel it!</p>
+           <!-- search bar -->
+           
+        </div>
+    </header>
+<!-- cards in the middle -->
+
+<div class="cards">
+   <a href="#">
+    <div class="card-1" width="400px">
+        <div class="card-1-1" >
+            <img src="{%static 'img/pasta.jpg'%}" alt="" height="300px" width="400px">
+        </div>
+        <div class="card-1-2">
+            <p>Fresh pasta is light and springy. Dried pasta is substantial and satisfying. In a perfect world, store bought fresh pasta would have a lovely, delicate bite and ... </p>
+        </div>
+        <div class="card-1-3">
+            <div class="rating" >
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+        </div>
+    </div>
+   </a>
+
+   <a href="#">
+    <div class="card-1" width="400px">
+        <div class="card-1-1" >
+            <img src="{%static 'img/pizza.jpg'%}" alt="" height="300px" width="400px">
+        </div>
+        <div class="card-1-2">
+            <p>Pizza is full of umami, which means “delicious” in Japanese. Just like the other types of taste, which are sweet, sour, salty, and bitter, umami is a rich and savory flavor that your taste buds taste and rec</p>
+        </div>
+        <div class="card-1-3">
+            <div class="rating" >
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+        </div>
+    </div>
+   </a>
+   <a href="#">
+    <div class="card-1" width="400px">
+        <div class="card-1-1" >
+            <img src="{%static 'img/platter.jpg'%}" alt="" height="300px" width="400px">
+        </div>
+        <div class="card-1-2">
+            <p>Quality Italian cooking is simply not possible without the use of fresh ingredients. Italy produces some of the best quality fruits and vegetables in the world. There, you will find tomatoes with an intense taste and vegetables bursting with flavors. These produce are essential to Italian cuisine.</p>
+        </div>
+        <div class="card-1-3">
+            <div class="rating" >
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+        </div>
+    </div>
+   </a>
+   <a href="#">
+    <div class="card-1" width="400px">
+        <div class="card-1-1" >
+            <img src="{%static 'img/salmon.jpg'%}" alt="" height="300px" width="400px">
+        </div>
+        <div class="card-1-2">
+            <p>Salmon is a mild-flavored fish with a rich and slightly oily taste to it. Baked, grilled, and poached salmon will often taste citrusy and buttery, along with whatever accompanying flavors were added to the dish. Smoked salmon tastes smokey and subtly fishy, and canned salmon is often either bland or oily.<p>
+        </div>
+        <div class="card-1-3">
+            <div class="rating" >
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+        </div>
+    </div>
+   </a>
+   <a href="#">
+    <div class="card-1" width="400px">
+        <div class="card-1-1" >
+            <img src="{%static 'img/indian.jpg'%}" alt="" height="300px" width="400px">
+        </div>
+        <div class="card-1-2">
+            <p>Indian palak gravy has a natural dark green colour, and a medium spicy taste because of the combination of ingredients like green chillies and curds. It is best ...</p>
+        </div>
+        <div class="card-1-3">
+            <div class="rating" >
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+        </div>
+    </div>
+   </a>
+   <a href="#">
+    <div class="card-1" width="400px">
+        <div class="card-1-1" >
+            <img src="{%static 'img/samosa.jpg'%}" alt="" height="300px" width="400px">
+        </div>
+        <div class="card-1-2">
+            <p>There is a some sourness in this stuffing as dry mango powder or dry pomegranate powder are added. A few more spices are added as well. In some variations, raisins are also added which gives the samosa a sweet-sour taste. Sometimes cashews are also added for some crunch.</p>
+        </div>
+        <div class="card-1-3">
+            <div class="rating" >
+  
+                <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
+                <input type="radio" name="rating" value="4" id="4"><label for="4">☆</label>
+                <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label>
+                <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label>
+                <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label>
+              
+              </div>
+        </div>
+    </div>
+   </a>
+   
+
+
+</div>
+
+
+<!-- cards end here -->
+
+    <footer class="footer">
+        <div class="social-media-links">
+            <i class="fab fa-facebook fa-4x"></i>
+            <i class="fab fa-twitter fa-4x"></i>
+            <i class="fab fa-instagram fa-4x"></i>
+        </div>
+        <p>Travel Next &copy; 2021, All Rights Reserved</p>
+    </footer>
+</body>
+</html>
